@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26730.10
+VisualStudioVersion = 15.0.26730.12
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MassRoverCEP.IoTSimulator", "MassRoverCEP.IoTSimulator\MassRoverCEP.IoTSimulator.csproj", "{5523DE9D-32CF-4FBA-B736-75D45B968CF9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IoTSimulator", "IoTSimulator\IoTSimulator.csproj", "{1BE01EDC-AF16-47CE-BCDE-7834A3850E18}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{5523DE9D-32CF-4FBA-B736-75D45B968CF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5523DE9D-32CF-4FBA-B736-75D45B968CF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5523DE9D-32CF-4FBA-B736-75D45B968CF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5523DE9D-32CF-4FBA-B736-75D45B968CF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BE01EDC-AF16-47CE-BCDE-7834A3850E18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BE01EDC-AF16-47CE-BCDE-7834A3850E18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BE01EDC-AF16-47CE-BCDE-7834A3850E18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BE01EDC-AF16-47CE-BCDE-7834A3850E18}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

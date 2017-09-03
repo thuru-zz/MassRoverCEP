@@ -1,16 +1,19 @@
 ﻿using Microsoft.Azure.EventHubs;
 using Newtonsoft.Json;
 using System;
-using System.IO;
+using System.Collections.Generic;
+using System.Configuration;
+using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 
-namespace MassRoverCEP.IoTSimulator
+namespace IoTSimulator
 {
     class Program
     {
         private static EventHubClient eventHubClient;
-        private const string EhConnectionString = ConfigurationManager
-        private const string EhEntityPath = "temperaturehub";
+        private static string EhConnectionString = ConfigurationManager.AppSettings["EventHubConnection"].ToString();
+        private static string EhEntityPath = "temperaturehub";
 
         static void Main(string[] args)
         {
@@ -19,7 +22,6 @@ namespace MassRoverCEP.IoTSimulator
                 EntityPath = EhEntityPath
             };
 
-            
             eventHubClient = EventHubClient.CreateFromConnectionString(connectionStringBuilder.ToString());
 
             while (true)
